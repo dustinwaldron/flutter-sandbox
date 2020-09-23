@@ -1,0 +1,119 @@
+Code samples of widgets
+/*
+
+        Center(
+          child: IconButton(
+            onPressed: () {
+              print('you clicked me!');
+            },
+            icon: Icon(Icons.alternate_email),
+            color: Colors.amber
+          ),
+        ),
+
+          Text(
+              "Hello World!",
+              style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.0,
+                  color: Colors.grey,
+                  fontFamily: "IndieFlower"
+              )
+          ),
+
+          child: Image(
+            image: NetworkImage("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80")
+          )
+
+          child: Image.asset('assets/images/fall-1.jpg')
+
+          Icon(
+            Icons.airport_shuttle,
+            color: Colors.lightBlue,
+            size: 250
+          )
+
+          child: FlatButton(
+            onPressed: () {
+              print('you clicked me!');
+            },
+            child: Text("Hello Button"),
+            color: Colors.lightBlue
+          ),
+
+          RaisedButton.icon(
+            onPressed: () {
+              print('you clicked me');
+            },
+            label: Text("click me!"),
+            icon: Icon(
+              Icons.mail,
+            ),
+            color: Colors.amber
+          )
+
+          IconButton(
+            onPressed: () {
+              print('you clicked me!');
+            },
+            icon: Icon(Icons.alternate_email),
+            color: Colors.amber
+          )
+
+          Container(
+            color: Colors.grey[400],
+            child: Text("Hello"),
+            padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
+            margin: EdgeInsets.all(50.0)
+          )
+
+          Padding(
+            child: Text("Hello"),
+            padding: EdgeInsets.all(90.0)
+          )
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text("Hello World"),
+              FlatButton(onPressed: () { }, child: Text("Press me!"), color: Colors.amber),
+              Container(
+                color: Colors.cyan,
+                padding: EdgeInsets.all(30),
+                child: Text("inside container!")
+              )
+            ],
+          ),
+
+          Container(
+          padding: EdgeInsets.all(20),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Column(
+                children: [
+                  Icon(Icons.kitchen, color: Colors.green[500]),
+                  Text('PREP:'),
+                  Text('25 min'),
+                ],
+              ),
+              Column(
+                children: [
+                  Icon(Icons.timer, color: Colors.green[500]),
+                  Text('COOK:'),
+                  Text('1 hr'),
+                ],
+              ),
+              Column(
+                children: [
+                  Icon(Icons.restaurant, color: Colors.green[500]),
+                  Text('FEEDS:'),
+                  Text('4-6'),
+                ],
+              ),
+            ],
+          ),
+        ),
+*/
